@@ -94,8 +94,8 @@
 }
 @media screen and (max-width: 760px){
 	.slide{
-	height: 166vh;
-	width: 200vw;
+	height: 167vh;
+	width: 220vw;
 }
 .one{
 	background: url(sw.png);
@@ -103,7 +103,7 @@
 
 }
 .OnePlus{
-	transform: rotate(90deg) translateX(25vh) translateY(10vh);
+	transform: rotate(90deg) translateX(21vh) translateY(11vh);
 	display: flex;
 	flex-direction: row;	
 }
@@ -121,22 +121,28 @@
 	margin-left: 0.5rem;
 }
 .OnePlus .icon1{
+	margin-top: 5rem;
 	margin-left: 9.5rem;
 	display: block;
 }
 .OnePlus .icon1 img{
-	width: 100%;
-	margin-top: 2rem;
+	width: 90%;
+	margin-top: 1rem;
+	margin-left: -2rem;
 }
 #op7t{
 	display: block;
 	font-size: 2rem;
-	margin-top: -10rem;
+	margin-top: -6.5rem;
 	margin-bottom: 1rem;
+	width: 80%;
+	color: #000;
+	font-weight: bold;
 }
 #op7t2{
 	display: block;
 	font-size: 1rem;
-	width: 75%;
+	width: 65%;
+	color: #4d4d4d;
 }
 }
