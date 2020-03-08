@@ -1,57 +1,119 @@
 <!DOCTYPE html>
-<html style="scroll-behavior: smooth;">
-<head>
-	<meta charset="UTF-8">
+<html>
+  <head>
+    <meta charset="UTF-8" />
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="horza.css">
-	<title>
-		OP7T
-	</title>
-</head>
-<body>
-<div class="outer-wrapper">
-	<div class="rapper">
-		<div class="slide one">
-			<div class="OnePlus">
-				<div>
-					<h1>OnePlus 7T</h1>
-				<p>Enjoy the blazing 90Hz Screen</p>
-				<h1 class="gbs" >Go Beyond Speed</h1>
-				<a href="" id="bn-cta">Buy Now</a>
-				</div>
-				<div class="icon1">
-					<p id="op7t">This Phone is not just about the 90Hz display</p>
-					<p id="op7t2">The OnePlus 7T is hands down one of the best smartphones to buy, right now. It comes with the latest processor, the fastest storage and display and a premium design, and offers one of the smoothest Android experience out there.</p>
-					<img src="op7t.jpg">
-				</div>
-			</div>
-			
-			<div class="bro1" style="background: red;height: 30vh;">
-					<div class="boom1"> 
-    					<h1>Gadget Bridge</h1>
-    					<h1 style="color: white">An inexpensive Flagship Killer</h1>
-    					<a href="https://www.gadgetbridge.com/news/oneplus-7t-review-long-term-an-inexpensive-flagship-killer/" style="text-decoration: none;"><p>See the article</p></a>
-    					
-					</div>
-			</div>
-			<div class="bro2" style=";height: 30vh;">
-					<div class="boom2"> 
-    					<h1>This Phone is not just about the 90Hz display</h1>
-    					<p style="color: black">The OnePlus 7T is hands down one of the best smartphones to buy, right now. It comes with the latest processor, the fastest storage and display and a premium design, and offers one of the smoothest Android experience out there.</p>
-    					
-					</div>
-			</div>
-			
-		</div>
-		<div class="slide two"></div>
-		<div class="slide three"></div>
-		<div class="slide four"></div>
-		<div class="slide five"></div>
-		
-	</div>
-	
-</div>
-</body>
+    <link rel="stylesheet" type="text/css" href="horza.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="aos.css">
+    <title>OP7T</title>
+  </head>
+  <body>
+    <div class="outer-wrapper">
+      <div class="wrapper">
+
+        <div class="slide one">
+          <div class="headline">
+            <h1>
+            OnePlus 7T
+          </h1>
+          <p>Enjoy the blazing 90Hz screen</p>
+          <h2>Go Beyond Speed</h2>
+          <a href="" id="bn-cta">Buy Now</a>
+          </div>
+          <div data-aos="fade-down">
+            <img src="op7t.jpg">
+          </div>
+          <div>
+          </div>
+          
+        </div>
+
+        <div class="slide two">
+
+          <div>
+            <section class="appe">
+              <div class="bro1" style="background: red;height: 25vh;">
+                <div class=""> 
+                    <h1 style="color: black">Gadget Bridge</h1>
+                    <h1 style="color: white">An inexpensive Flagship Killer</h1>
+                    <a href="https://www.gadgetbridge.com/news/oneplus-7t-review-long-term-an-inexpensive-flagship-killer/" style="text-decoration: none;"><p>See the article</p></a>
+                    
+                </div>
+              </div>
+              <div class="bro2" style=";height: 30vh;">
+                <div class="boom2"> 
+                <h1>This Phone is not just about the 90Hz display</h1>
+                <p >The OnePlus 7T is hands down one of the best smartphones to buy, right now. It comes with the latest processor, the fastest storage and display and a premium design, and offers one of the smoothest Android experience out there.</p>
+                
+                </div>
+              </div>
+            </section>
+          </div>
+          
+          <div>
+            <section class="appe2" data-aos="fade-down">
+              <img src="op7t2.png">
+            </section>
+          </div>
+
+          <div>
+            <section class="appe">
+              <div class="bro1" style="background: red;height: 25vh;transform: rotate(0deg) translateX(10vh) translateY(5vh);">
+                <div class=""> 
+                    <h1 style="color: black">Android Central</h1>
+                    <h1 style="color: white">The best of Android for under $600</h1>
+                    <a href="https://www.androidcentral.com/oneplus-7t-review" style="text-decoration: none;"><p>See the article</p></a>
+                    
+                </div>
+              </div>
+              <div class="bro1" style="background: red;height: 35vh;transform: rotate(0deg) translateX(10vh) translateY(10vh);">
+                <div class=""> 
+                    <h1 style="color: black">TechRadar</h1>
+                    <h1 style="color: white">Yet another affordable powerhouse from OnePlus</h1>
+                    <a href="https://www.techradar.com/in/reviews/oneplus-7t" style="text-decoration: none;"><p>See the article</p></a>
+                    
+                </div>
+              </div>
+            </section>
+          </div>
+          
+        </div>
+        <div class="slide three">
+          
+        </div>
+        
+
+      </div>
+
+    </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+
+<script type="text/javascript">
+      window.onload = function() {
+  lax.setup() // init
+
+  const updateLax = () => {
+    lax.update(window.scrollY)
+    window.requestAnimationFrame(updateLax)
+  }
+
+  window.requestAnimationFrame(updateLax)
+}
+</script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(
+      {
+        offset:500,
+        duration:1000
+      });
+  </script>
+
+  </body>
 </html>
