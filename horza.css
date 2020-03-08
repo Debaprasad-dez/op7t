@@ -176,17 +176,17 @@ body {
 @media screen and (max-width: 760px){
   .one {
   background-size: cover;
-  width: 325vw
+  width: 230vw
 }
 .two {
   background-size: cover;
   transform: translateX(0vw);
-  width: 325vw
+  width: 385vw
 }
 
 .wrapper {
   
-  width: 650vw;
+  width: 615vw;
   
 }
 
